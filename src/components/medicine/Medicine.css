@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Work+Sans:700');
+
+.Medicine {
+  width: 50%;
+  margin: 0 auto;
+}
+.Medicine h2 {
+    font: 700 35px 'Open Sans';
+    margin-bottom: 0px;
+    color: #5D6569;
+    margin-top: 1em;
+}
+.Medicine .stats,
+.Medicine .stats-percent {
+  display: inline-block;
+  font: 400 16px 'Open Sans';
+  margin-right: 20px;
+  color: #888;
+  margin-bottom: 20px;
+}
+.Medicine .stats {
+  float: left;
+}
+.Medicine .stats-percent {
+  float: right;
+}
+.Medicine .stats span,
+.Medicine .stats-percent span {
+  font: 700 18px;
+  color: #4B2E83;
+}
+.Medicine input,
+.Medicine input:focus {
+    transition: .4s all;
+    padding: 18px 20px;
+    border-radius: 4px;
+    font: 400 16px;
+    background: #F8F8F8;
+    border: none;
+    color: #666;
+    outline: 0;
+    width: 93%;
+}
+::-webkit-input-placeholder {
+  color: #AAA;
+}
+.Medicine ul {
+    list-style: none;
+    border-radius: 2px;
+    padding: 0;
+    box-shadow: 0 0 20px #EEE;
+}
+.Medicine ul li {
+  transition: .3s all;
+  padding: 10px 25px;
+  background: #FFF;
+  border-bottom: 2px solid transparent;
+}
+.Medicine ul > li > .ItemDiv,
+.Medicine ul > li > .TaskOptions {
+  transition: .3s all;
+  display: inline-block;
+}
+.Medicine ul li .ItemDiv {
+  min-width: 85%;
+  max-width: 85%;
+}
+.Medicine ul li .TaskOptions {
+  width: 15%;
+  text-align: right;
+}
+.Medicine ul li:hover {
+    background: #F5F5F5;
+    cursor: pointer;
+}
+.Medicine ul li:hover .ItemDiv p {
+    color: #444;
+}
+.Medicine ul li:hover .TaskOptions button {
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Styling for the List Div */
+.Medicine ul > li > .ItemDiv > p {
+  font: 400 16px;
+  color: #5D6569;
+}
+.Medicine ul > li > .TaskOptions {
+  float: right;
+  position: relative;
+  top: 12px;
+}
+.Medicine ul > li > .TaskOptions > button,
+.Medicine ul > li > .TaskOptions > button:focus {
+  -webkit-transition: all .3s;
+  border: none;
+  background: #F5F5F5;
+  box-shadow: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  outline: 0;
+}
+.Medicine ul > li > .TaskOptions > button:hover {
+  background: #FFF;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+.Medicine ul > li > .TaskOptions > button > span {
+  color: #AAA;
+}
+
+/* When Marked As Done/Complete */
+.Medicine ul > li.done {
+    border-color: rgba(255,255,255,0.1);
+    background: #4B2E83;
+}
+.Medicine ul > li.done > .ItemDiv > p {
+  text-decoration: line-through;
+  color: #FFF;
+}
+.Medicine ul > li.done > .TaskOptions > button {
+  background: rgba(255,255,255,0.3);
+}
+.Medicine ul > li.done > .TaskOptions > button > span {
+  color: #FFF;
+}
+
+/* When Marked As Done/Complete is Hovered */
+.Medicine ul > li.done:hover {
+    background: #4B2E83;
+    padding-left: 30px;
+}
+.Medicine ul > li.done:hover > .TaskOptions  > button {
+  background: #FFF;
+  box-shadow: none;
+}
+.Medicine ul > li.done:hover > .TaskOptions  > button > span {
+  color: #4B2E83;
+}
