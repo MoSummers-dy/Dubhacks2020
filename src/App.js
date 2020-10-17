@@ -2,24 +2,30 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import {
+  Route,
+  Switch,
+  HashRouter
+} from 'react-router-dom';
+
+import NavBar from './components/navbar/navbar';
+import UnderConstruction from './components/construction/UnderConstruction';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <NavBar />
+      <Switch>
+        <Route path='/' exact><UnderConstruction /></Route>
+        <Route path='/archive' exact><UnderConstruction /></Route>
+        <Route path='/team' exact><UnderConstruction /></Route>
+        <Route path='/endorsement' exact><UnderConstruction /></Route>
+        <Route path='/involvement' exact><UnderConstruction /></Route>
+      </Switch>
+    </HashRouter>
+    
   );
 }
 
