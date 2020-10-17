@@ -19,10 +19,10 @@ function App() {
       <NavBar />
       <Switch>
         <Route path='/' exact><UnderConstruction /></Route>
-        <Route path='/archive' exact><UnderConstruction /></Route>
-        <Route path='/team' exact><UnderConstruction /></Route>
-        <Route path='/endorsement' exact><UnderConstruction /></Route>
-        <Route path='/involvement' exact><UnderConstruction /></Route>
+        <Route path='/treatment' exact><UnderConstruction /></Route>
+        <Route path='/resources' exact><UnderConstruction /></Route>
+        <Route path='/medicine' exact><UnderConstruction /></Route>
+        <Route path='/profile' exact><UnderConstruction /></Route>
       </Switch>
     </HashRouter>
     
