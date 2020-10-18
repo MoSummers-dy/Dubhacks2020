@@ -22,7 +22,6 @@ const Resources = (props) => {
 
     const longText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
-<<<<<<< HEAD
     const longTextList = () => {
         return (
             <ul>
@@ -290,11 +289,7 @@ const Resources = (props) => {
                                     </Card.Text>
                                     <Card.Subtitle className="mb-2 text-muted">Myths in the Way of Relationship and Self-Respect Effectiveness</Card.Subtitle>
                                     <Card.Text>
-<<<<<<< HEAD
-                                        {longTextList()}
-=======
                                         {mythTwo()}
->>>>>>> 495b07aaa75db635a1b6da51caf5b5b8452d4cdc
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Img variant="top" src={img1} />
