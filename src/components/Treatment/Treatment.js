@@ -35,13 +35,13 @@ const Treatment = () => {
     <Col sm={9}>
       <Tab.Content>
         <Tab.Pane eventKey="first">
-        <embed class="container" src={worksheet} frameborder="0" width="90%" height="1200px"></embed>
+        <embed class="tab-container" src={worksheet} frameborder="0" width="90%" height="1200px"></embed>
         </Tab.Pane>
         <Tab.Pane eventKey="second">
-        <embed class="container" src={dbt} frameborder="0" width="90%" height="1200px"></embed>
+        <embed class="tab-container" src={dbt} frameborder="0" width="90%" height="1200px"></embed>
         </Tab.Pane>
         <Tab.Pane eventKey="third">
-        <embed class="container" src={ph} frameborder="0" width="90%" height="1200px"></embed>
+        <embed class="tab-container" src={ph} frameborder="0" width="90%" height="1200px"></embed>
         </Tab.Pane>
       </Tab.Content>
     </Col>
