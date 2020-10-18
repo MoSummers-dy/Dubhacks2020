@@ -11,21 +11,21 @@ import {
 } from 'react-router-dom';
 
 import NavBar from './components/navbar/navbar';
-import UnderConstruction from './components/construction/UnderConstruction';
+import ScheduleWrap from './components/Schedule/ScheduleWrap';
 
 function App() {
   return (
     <HashRouter>
       <NavBar />
       <Switch>
-        <Route path='/' exact><UnderConstruction /></Route>
-        <Route path='/treatment' exact><UnderConstruction /></Route>
-        <Route path='/resources' exact><UnderConstruction /></Route>
-        <Route path='/medicine' exact><UnderConstruction /></Route>
-        <Route path='/profile' exact><UnderConstruction /></Route>
+        <Route path='/' exact><ScheduleWrap /></Route>
+        <Route path='/archive' exact><ScheduleWrap /></Route>
+        <Route path='/team' exact><ScheduleWrap /></Route>
+        <Route path='/endorsement' exact><ScheduleWrap /></Route>
+        <Route path='/involvement' exact><ScheduleWrap /></Route>
       </Switch>
     </HashRouter>
-    
+
   );
 }
 
