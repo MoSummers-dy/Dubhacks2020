@@ -21,7 +21,7 @@
 .Medicine .stats span,
 .Medicine .stats-percent span {
   font: 700 18px;
-  color: #4B2E83;
+  color: #EE7804;
 }
 .AddMedicine input, .AddMedicine input:focus {
     transition: .4s all;
@@ -90,7 +90,7 @@
 
 .MedOptions > button, .MedOptions > button:focus {
   border: none;
-  background: rgba(75, 46, 131, 0.5);
+  background: #F78404;
   box-shadow: none;
   height: 30px;
   width: 30px;
@@ -111,11 +111,11 @@
 /* When Marked As Done/Complete */
 .Medicine ul > li.done {
     border-color: rgba(255,255,255,0.1);
-    background: #4B2E83;
+    background: #F0DAA1;
 }
 .Medicine ul > li.done > .ItemDiv > p {
   text-decoration: line-through;
-  color: #FFF;
+  color: black;
 }
 .Medicine ul > li.done > .TaskOptions > button {
   background: rgba(255,255,255,0.3);
@@ -126,7 +126,7 @@
 
 /* When Marked As Done/Complete is Hovered */
 .Medicine ul > li.done:hover {
-    background: #4B2E83;
+    background: #EE7804;
     padding-left: 30px;
 }
 .Medicine ul > li.done:hover > .TaskOptions  > button {

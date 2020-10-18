@@ -27,7 +27,7 @@ class Profile extends Component {
 			name: name
     });
 	};
-	
+
 	changePreferredName = (event) => {
 		let name = prompt("Please enter new preferred name")
 		if (name == null || name == "") return
@@ -137,11 +137,10 @@ class Profile extends Component {
 							</Card.Body>
 						</Card>
 					</div>
-					
 				</Container>
 				<div class="row justify-content-between" style={{marginTop: '10pt'}}>
 				</div>
-				<button class="btn btn-danger" style={{marginLeft: '70%'}}>Sign out</button>
+				<button class="btn btn-danger" style={{marginLeft: '80%', marginTop: "40px"}}>Sign out</button>
 			</div>
 		)
 	}

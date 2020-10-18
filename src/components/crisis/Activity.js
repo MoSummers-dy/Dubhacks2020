@@ -5,7 +5,7 @@ export default function Activity({ activity, toggleActivity }) {
   function handleActivityClick() {
     toggleActivity(activity.id)
   }
-  
+
   return (
     <div>
       <label>

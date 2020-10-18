@@ -1,6 +1,10 @@
 import React from 'react';
 import Scheduler from './Scheduler';
 import './ScheduleWrap.css';
+import Card from 'react-bootstrap/Card';
+import Accordion from 'react-bootstrap/Accordion'
+import Button from 'react-bootstrap/Button'
+
 const data = [
   { start_date:'2020-10-12 6:00', end_date:'2020-10-12 8:00', text:'Event 1', id: 1 },
   { start_date:'2020-10-13 11:00', end_date:'2020-10-13 18:00', text:'Event 2', id: 2 },
@@ -15,8 +19,22 @@ const UnderConstruction = () => {
         <section id="cit">— Sydney J. Harris</section>
       </div><br/>
       <div>
-        <p id="note">----<strong>Drag</strong> on the calendar to start planning
-        to make everyday enjoyable!----</p>
+      <div class="d-flex flex-column">
+        <h1 style={{textAlign:"center", fontSize:"70px", }}>Scheduler</h1>
+        <Accordion style={{width:"19%", marginLeft:"auto", marginRight:"5%"}}>
+        <Card>
+          <Card.Header>
+          <Accordion.Toggle as={Button} variant="link" eventKey="0">
+              Click me to learn how to use!
+          </Accordion.Toggle>
+          </Card.Header>
+          <Accordion.Collapse eventKey="0">
+          <Card.Body>Drag to create an event : )
+          </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+      </Accordion>
+      </div>
       </div>
       <div className='scheduler-container'>
         <Scheduler events={data}/>
