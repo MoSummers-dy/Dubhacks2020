@@ -1,14 +1,14 @@
 import React from 'react'
 
-export default function Activity({ activity, deleteActivity }) {
-  function handleDeleteClick() {
-    deleteActivity(activity.id)
+export default function Activity({ activity, toggleActivity }) {
+  function handleActivityClick() {
+    toggleActivity(activity.id)
   }
   
   return (
     <div>
       <label>
-        {activity.name}<button onClick={handleDeleteClick}>Delete</button>
+      {activity.name}<button onClick={handleActivityClick}>Remove</button>
       </label>
     </div>
   )
