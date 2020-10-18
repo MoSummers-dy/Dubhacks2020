@@ -15,7 +15,7 @@ import UnderConstruction from './components/construction/UnderConstruction';
 import Crisis from './components/crisis/crisis';
 import Medicine from './components/medicine/Medicine';
 import Resources from './components/resources/Resources'
-import Profile from './components/Profile';
+import Profile from './components/Profile/Profile';
 import Schedule from './components/Schedule/ScheduleWrap'
 import Treatment from './components/Treatment/Treatment'
 
