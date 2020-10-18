@@ -1,68 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Moodie
 
-## Available Scripts
+Our website “Moodie”, mainly serving as health tech, is designated for the ones who suffer from mental disorders with the concentration of Major Depression Disorder and Anxiety Disorder. The word “Moodie”, a type of mood that makes you feel good and comfortable, creates the pathos that we want our users to feel relaxed and comfortable when interacting with our website. Mental disorder has been a crucial and urgent concern in this modern society with the high level of stress and the severe impact from COVID-19, but not everyone who suffers from the mental illness is able to get access to the medical resources either because of their time, their energy or their financial condition.
 
-In the project directory, you can run:
+## Primary Feature
 
-### `yarn start`
+Our main feature is to make the resources and treatments available to everyone who needs assistance related to mental issues. The primary feature is the schedule that the users can fill out themselves, or with the help of therapists, in order to plan their lives ahead of time, and following a stable daily routine can help the patients to stabilize their mood as well. In the schedule, we suggest the users setting up a small goal every day to gain the satisfaction that they lack in their daily life.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Secondary Features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. In the treatment section, we provide two main methods for anxiety and depression --ABC worksheet, and interpersonal effectiveness worksheet, which both dedicate to the user’s problem-solving skills and help create a new pathway that will eventually substitute the suicidal thoughts. Besides, some customized treatments or worksheets will be provided based on every user’s special need.
+2. The resources section works collaboratively with the treatment, and it points out the myth and the wrong “common sense” that people have towards their own mental condition. By comprehending their thoughts and mental behaviors, they will further approach their inner world by receiving more scientific side of the mental illness. 
+3. Another feature is to help the patients who are currently on medication to stay on their medication and take the pills on time everyday, and we provide them with the crisis help that includes some activities to calm them down (including TIPs, pace breathing and intense exercise...) and some people or place that they can call for urgent help.
 
-### `yarn test`
+## Final thoughts and future developments
+Compared to other websites designed for mental disorders, we focus more on the treatment and therapy instead of counseling; we believe that the scientific method is always a vital component in order to support the group who needs mental care.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Due to the limited time schedule, we are unable to integrate a user file system into the website. The current version only supports personalization for a single user, and in the future if we will continue to develop a stable user storage system to make the website accessilbe for every user.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
