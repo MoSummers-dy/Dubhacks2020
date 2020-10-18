@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "217ed47fec4848e5029d00b63e8375d6",
+    "revision": "8777375cf5bdd2b558fde94ccae22b19",
     "url": "/Dubhacks2020/index.html"
   },
   {
-    "revision": "34fbc9b7de1f5f5364ec",
+    "revision": "526eece14a3eb6cd5838",
     "url": "/Dubhacks2020/static/css/2.63ad08ba.chunk.css"
   },
   {
-    "revision": "4bb764f1b708ff06f007",
-    "url": "/Dubhacks2020/static/css/main.fed0e855.chunk.css"
+    "revision": "869d9f1ce32c9edc9b91",
+    "url": "/Dubhacks2020/static/css/main.c6a14340.chunk.css"
   },
   {
-    "revision": "34fbc9b7de1f5f5364ec",
-    "url": "/Dubhacks2020/static/js/2.00d1eb2c.chunk.js"
+    "revision": "526eece14a3eb6cd5838",
+    "url": "/Dubhacks2020/static/js/2.b97291f4.chunk.js"
   },
   {
     "revision": "2493e3cd185616f882405c275d5a7607",
-    "url": "/Dubhacks2020/static/js/2.00d1eb2c.chunk.js.LICENSE.txt"
+    "url": "/Dubhacks2020/static/js/2.b97291f4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4bb764f1b708ff06f007",
-    "url": "/Dubhacks2020/static/js/main.0495c6f9.chunk.js"
+    "revision": "869d9f1ce32c9edc9b91",
+    "url": "/Dubhacks2020/static/js/main.c0145be7.chunk.js"
   },
   {
     "revision": "97bef074494f11ec2ed3",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "962193ae807dbeee7c901a2af2d3a2ab",
     "url": "/Dubhacks2020/static/media/4.962193ae.jpeg"
-  },
-  {
-    "revision": "cd264c9558dd6c9c22ea61cdc33da9a6",
-    "url": "/Dubhacks2020/static/media/4.cd264c95.jpg"
   },
   {
     "revision": "ed8207951defb7c5e5723f8702f03f01",
@@ -118,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1460d0b2926cca2edb3765249dd902a7",
     "url": "/Dubhacks2020/static/media/g7.1460d0b2.jpg"
+  },
+  {
+    "revision": "468dd8c4e0f3e7956aa0af91dd52e3a9",
+    "url": "/Dubhacks2020/static/media/icon.468dd8c4.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
