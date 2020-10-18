@@ -2,9 +2,6 @@ import React, {useState, useEffect} from 'react';
 import './navbar.css';
 
 import { Link, useHistory } from 'react-router-dom';
-import icon1 from './icons/1.jpg';
-import icon2 from './icons/2.jpg';
-import icon3 from './icons/3.jpg';
 import icon4 from './icons/4.jpg';
 
 const tabs = ['Homepage', 'Treatment', 'Resources', 'Medicine', 'Crisis', 'Profile'];
@@ -34,7 +31,7 @@ const NavBar = () => {
 
 	return (
 		<div id='nav-bar-container'>
-			<img id='logo-left' className='logo' src={icon1} alt='Logo'/>
+			<img id='logo-left' className='logo' src={icon4} alt='Logo'/>
 			{links}
 			<img id='logo-right' className='logo' src={icon4} alt='Logo'/>
 		</div>
