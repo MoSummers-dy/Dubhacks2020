@@ -14,9 +14,9 @@ const NavBar = () => {
 	const history = useHistory();
 
 	useEffect(() => {
-		return history.listen(() => { 
+		return history.listen(() => {
 			setTab(paths.indexOf(window.location.hash.substring(1)));
-		}) 
+		})
 	}, [history]);
 
 	for (let i = 0; i < tabs.length; i++) {
