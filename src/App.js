@@ -13,25 +13,32 @@ import {
 import NavBar from './components/navbar/navbar';
 import UnderConstruction from './components/construction/UnderConstruction';
 import Crisis from './components/crisis/crisis';
-import crisis_icon from './components/crisis/crisis_icon.png'
+import Medicine from './components/medicine/Medicine';
+import Resources from './components/resources/Resources'
 
 function App() {
+  let getItem = (val) => {
+    return JSON.parse(localStorage.getItem(val));
+  };
+
+  const props = {
+    todos: getItem('todos'),
+    finished: getItem('finished'),
+    done: getItem('done')
+  };
+
   return (
-    <>
-      <HashRouter>
-        <NavBar />
-        <Switch>
-          <Route path='/' exact><UnderConstruction /></Route>
-          <Route path='/archive' exact><Crisis /></Route>
-          <Route path='/team' exact><UnderConstruction /></Route>
-          <Route path='/endorsement' exact><UnderConstruction /></Route>
-          <Route path='/involvement' exact><UnderConstruction /></Route>
-        </Switch>
-      </HashRouter>
-      <a href="/Dubhacks2020#/crisis">
-         <img src={crisis_icon}></img>
-      </a>
-    </>
+    <HashRouter>
+      <NavBar />
+      <Switch>
+        <Route path='/' exact><UnderConstruction /></Route>
+        <Route path='/treatment' exact><UnderConstruction /></Route>
+        <Route path='/resources' exact><Resources /></Route>
+        <Route path='/medicine' exact><Medicine {...props}/></Route>
+        <Route path='/profile' exact><UnderConstruction /></Route>
+      </Switch>
+    </HashRouter>
+    
   );
 }
 
