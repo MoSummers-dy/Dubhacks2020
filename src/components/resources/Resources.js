@@ -12,6 +12,19 @@ import img3 from './pics/enjoyable-relationships.jpg'
 import img4 from './pics/positive mental art.png'
 import img5 from './pics/ss.jpg'
 import img6 from './pics/sss.jpg'
+import img7 from './pics/1.jpg'
+import img8 from './pics/2.jpg'
+import img9 from './pics/3.png'
+import img10 from './pics/4.jpeg'
+import img11 from './pics/5.jpg'
+import img12 from './pics/6.png'
+import g1 from './pics/g1.jpg'
+import g2 from './pics/g2.jpg'
+import g3 from './pics/g3.jpg'
+import g4 from './pics/g4.jpg'
+import g5 from './pics/g5.jpg'
+import g6 from './pics/g6.jpg'
+import g7 from './pics/g7.jpg'
 
 const Resources = (props) => {
 
@@ -101,7 +114,7 @@ const Resources = (props) => {
                 <p>
                 “Sometimes the smallest step in the right direction ends up being the biggest step of your life. Tip toe if you must, but take the step.”
                 </p>
-
+                <Card.Img variant="top" src={img11} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -109,7 +122,7 @@ const Resources = (props) => {
                 <p>
                 “One of the happiest moments in life is when you find the courage to let go of what you can’t change.”
                 </p>
-
+                <Card.Img variant="top" src={img7} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -117,7 +130,7 @@ const Resources = (props) => {
                 <p>
                 “Starting today, I need to forget what’s gone. Appreciate what still remains and look forward to what’s coming next.”
                 </p>
-
+                <Card.Img variant="top" src={img4} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -125,7 +138,7 @@ const Resources = (props) => {
                 <p>
                 “Sometimes you have to just pick yourself up and carry on.”
                 </p>
-                <Card.Img variant="top" src={img5} />
+                <Card.Img variant="top" src={img10} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -133,7 +146,7 @@ const Resources = (props) => {
                 <p>
                 “The best way to cheer yourself up is to try to cheer somebody else up.” – Mark Twain
                 </p>
-
+                <Card.Img variant="top" src={img12} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -141,7 +154,7 @@ const Resources = (props) => {
                 <p>
                 “Every day may not be good. But there is something good in every day.”
                 </p>
-                <Card.Img variant="top" src={img3} />
+                <Card.Img variant="top" src={img8} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -149,7 +162,7 @@ const Resources = (props) => {
                 <p>
                 “It’s just a bad day not a bad life.”
                 </p>
-
+                <Card.Img variant="top" src={img9} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -157,7 +170,7 @@ const Resources = (props) => {
                 <p>
                 “My entire life can be described in one sentence: It didn’t go as planned, and that’s okay.”
                 </p>
-
+                <Card.Img variant="top" src={img2} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -165,7 +178,7 @@ const Resources = (props) => {
                 <p>
                 "Let us be of good cheer, however, remembering that the misfortunes hardest to bear are those which never come." – James Russell Lowell
                 </p>
-
+                <Card.Img variant="top" src={img1} />
                 </blockquote>
             </Card>
             <Card bg="primary" text="white" className="text-center p-3">
@@ -173,7 +186,7 @@ const Resources = (props) => {
                 <p>
                 “You don’t always need a plan. Sometimes you just need to breathe, trust, let go and see what happens.”
                 </p>
-                <Card.Img variant="top" src={img6} />
+                <Card.Img variant="top" src={img3} />
                 </blockquote>
             </Card>
 
@@ -197,43 +210,57 @@ const Resources = (props) => {
         }
     ];
 
-    const gallery = (images) => {
+    const gallery = () => {
         return (
             <Carousel>
                 <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={img4}
+                    src={g1}
                     alt="Third slide"
                     />
-                    <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+    
                 </Carousel.Item>
                 <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={img2}
+                    src={g2}
                     alt="Third slide"
                     />
-
-                    <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={img3}
+                    src={g3}
                     alt="Third slide"
                     />
-
-                    <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
+                </Carousel.Item>                <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={g4}
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={g5}
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={g6}
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={g7}
+                    alt="Third slide"
+                    />
                 </Carousel.Item>
             </Carousel>
           );
@@ -276,6 +303,7 @@ const Resources = (props) => {
                                 <Card.Text>
                                     {fast()}
                                 </Card.Text>
+                                <Card.Img variant="top" src={img5} />
                             </Card.Body>
                         </Card>
                         </Tab.Pane>
@@ -292,14 +320,14 @@ const Resources = (props) => {
                                         {mythTwo()}
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Img variant="top" src={img1} />
+                                <Card.Img variant="top" src={img6} />
                             </Card>
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
                             {quotes()}
                         </Tab.Pane>
                         <Tab.Pane eventKey="forth">
-                            {img1}
+                            {gallery()}
                         </Tab.Pane>
                     </Tab.Content>
                     </Col>
