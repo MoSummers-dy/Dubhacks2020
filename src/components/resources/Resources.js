@@ -106,7 +106,7 @@ const Resources = (props) => {
         return (
         <div>
             <CardColumns>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “Sometimes the smallest step in the right direction ends up being the biggest step of your life. Tip toe if you must, but take the step.”
@@ -114,7 +114,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img11} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “One of the happiest moments in life is when you find the courage to let go of what you can’t change.”
@@ -122,7 +122,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img7} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “Starting today, I need to forget what’s gone. Appreciate what still remains and look forward to what’s coming next.”
@@ -130,7 +130,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img4} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “Sometimes you have to just pick yourself up and carry on.”
@@ -138,7 +138,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img10} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “The best way to cheer yourself up is to try to cheer somebody else up.” – Mark Twain
@@ -146,7 +146,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img12} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “Every day may not be good. But there is something good in every day.”
@@ -154,7 +154,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img8} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “It’s just a bad day not a bad life.”
@@ -162,7 +162,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img9} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “My entire life can be described in one sentence: It didn’t go as planned, and that’s okay.”
@@ -170,7 +170,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img2} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 "Let us be of good cheer, however, remembering that the misfortunes hardest to bear are those which never come." – James Russell Lowell
@@ -178,7 +178,7 @@ const Resources = (props) => {
                 <Card.Img variant="top" src={img1} />
                 </blockquote>
             </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
+            <Card border="warning" text="black" className="text-center p-3">
                 <blockquote className="blockquote mb-0 card-body">
                 <p>
                 “You don’t always need a plan. Sometimes you just need to breathe, trust, let go and see what happens.”
@@ -195,14 +195,6 @@ const Resources = (props) => {
     const gallery = () => {
         return (
             <Carousel>
-                <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={g4}
-                    alt="Third slide"
-                    height="200px"
-                    />
-                </Carousel.Item>
                 <Carousel.Item>
                 <img
                     className="d-block w-100"
