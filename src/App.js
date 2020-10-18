@@ -12,6 +12,7 @@ import {
 
 import NavBar from './components/navbar/navbar';
 import UnderConstruction from './components/construction/UnderConstruction';
+import Crisis from './components/crisis/crisis';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route path='/' exact><UnderConstruction /></Route>
-        <Route path='/archive' exact><UnderConstruction /></Route>
+        <Route path='/archive' exact><Crisis /></Route>
         <Route path='/team' exact><UnderConstruction /></Route>
         <Route path='/endorsement' exact><UnderConstruction /></Route>
         <Route path='/involvement' exact><UnderConstruction /></Route>
