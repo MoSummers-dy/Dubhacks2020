@@ -3,6 +3,7 @@ import './navbar.css';
 
 import { Link, useHistory } from 'react-router-dom';
 import icon4 from './icons/4.jpg';
+import crisis_icon from '../crisis/crisis_icon.png';
 
 const tabs = ['Homepage', 'Treatment', 'Resources', 'Medicine', 'Crisis', 'Profile'];
 const paths = ['/', '/treatment', '/resources', '/medicine', '/crisis', '/profile'];
@@ -31,9 +32,14 @@ const NavBar = () => {
 
 	return (
 		<div id='nav-bar-container'>
-			<img id='logo-left' className='logo' src={icon4} alt='Logo'/>
+			
+			<a href="/Dubhacks2020#">
+				<img id='logo-left' className='logo' src={icon4} alt='Logo'/>
+			</a>
 			{links}
-			<img id='logo-right' className='logo' src={icon4} alt='Logo'/>
+			<a href="/Dubhacks2020#/crisis">
+				<img src={crisis_icon} width="80" height="80"/>
+			</a>
 		</div>
 	)
 }
