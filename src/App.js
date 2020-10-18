@@ -12,6 +12,7 @@ import {
 
 import NavBar from './components/navbar/navbar';
 import ScheduleWrap from './components/Schedule/ScheduleWrap';
+import Treatment from './components/Treatment/Treatment'
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route path='/' exact><ScheduleWrap /></Route>
-        <Route path='/archive' exact><ScheduleWrap /></Route>
+        <Route path='/Treatment' exact><Treatment /></Route>
         <Route path='/team' exact><ScheduleWrap /></Route>
         <Route path='/endorsement' exact><ScheduleWrap /></Route>
         <Route path='/involvement' exact><ScheduleWrap /></Route>

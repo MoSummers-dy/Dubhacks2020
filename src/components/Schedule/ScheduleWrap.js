@@ -13,6 +13,10 @@ const UnderConstruction = () => {
       <div id="card">
         <section id="quo" >Happiness is a direction, not a place.</section>
         <section id="cit">— Sydney J. Harris</section>
+      </div><br/>
+      <div>
+        <p id="note">----<strong>Drag</strong> on the calendar to start planning
+        to make everyday enjoyable!----</p>
       </div>
       <div className='scheduler-container'>
         <Scheduler events={data}/>

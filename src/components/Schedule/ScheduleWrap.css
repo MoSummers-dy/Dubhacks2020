@@ -17,3 +17,9 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
 }
+
+#note {
+  margin-left: 90px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
