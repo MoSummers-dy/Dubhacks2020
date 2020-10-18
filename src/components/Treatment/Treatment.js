@@ -1,16 +1,12 @@
-import React, {useState} from 'react';
-import Card from 'react-bootstrap/Card';
+import React from 'react';
 import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
-import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-import CardColumns from 'react-bootstrap/CardColumns'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './Treatment.css'
 
-import ppt from './ppt.pdf'
-import myth from './relationship-myth.pdf'
+import dbt from './dbt-interpersonal-effectiveness-skills.pdf'
+import worksheet from './worksheet.pdf'
 import ph from './place-holder.pdf'
 
 const Treatment = () => {
@@ -20,7 +16,7 @@ const Treatment = () => {
     <Col sm={3}>
       <Nav variant="pills" className="flex-column">
         <Nav.Item>
-          <Nav.Link style={{width: '5 in'}}eventKey="first">
+          <Nav.Link eventKey="first">
             <span class="tab" >Treatment 1</span>
           </Nav.Link>
         </Nav.Item>
@@ -39,13 +35,13 @@ const Treatment = () => {
     <Col sm={9}>
       <Tab.Content>
         <Tab.Pane eventKey="first">
-        <embed src={ppt} frameborder="0" width="90%" height="1200px"></embed>
+        <embed class="container" src={worksheet} frameborder="0" width="90%" height="1200px"></embed>
         </Tab.Pane>
         <Tab.Pane eventKey="second">
-        <embed src={myth} frameborder="0" width="90%" height="1200px"></embed>
+        <embed class="container" src={dbt} frameborder="0" width="90%" height="1200px"></embed>
         </Tab.Pane>
         <Tab.Pane eventKey="third">
-        <embed src={ph} frameborder="0" width="90%" height="1200px"></embed>
+        <embed class="container" src={ph} frameborder="0" width="90%" height="1200px"></embed>
         </Tab.Pane>
       </Tab.Content>
     </Col>
