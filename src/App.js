@@ -16,7 +16,6 @@ import Crisis from './components/crisis/crisis';
 import Medicine from './components/medicine/Medicine';
 import Resources from './components/resources/Resources'
 import Profile from './components/Profile';
->>>>>>> 495b07aaa75db635a1b6da51caf5b5b8452d4cdc
 
 function App() {
   let getItem = (val) => {
