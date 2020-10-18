@@ -4,18 +4,12 @@
   width: 50%;
   margin: 0 auto;
 }
-.Medicine h2 {
-    font: 700 35px 'Open Sans';
-    margin-bottom: 0px;
-    color: #5D6569;
-    margin-top: 1em;
-}
+
 .Medicine .stats,
 .Medicine .stats-percent {
   display: inline-block;
   font: 400 16px 'Open Sans';
   margin-right: 20px;
-  color: #888;
   margin-bottom: 20px;
 }
 .Medicine .stats {

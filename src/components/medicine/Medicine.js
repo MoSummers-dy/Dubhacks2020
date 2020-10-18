@@ -38,7 +38,9 @@ class Medicine extends Component {
         let todoList = this.state.todoList;
         return (
             <div className="Medicine">
-                <h2>Medicine List</h2>
+                <h2 class="m-5" style={{
+                    textAlign: 'center'
+                }}>Medicine List</h2>
                 <TodoStats
                     list={todoList}
                     finished={this.state.finished}

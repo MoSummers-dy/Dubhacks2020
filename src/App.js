@@ -13,12 +13,13 @@ import {
 import NavBar from './components/navbar/navbar';
 import UnderConstruction from './components/construction/UnderConstruction';
 import Medicine from './components/medicine/Medicine';
+import Resources from './components/resources/Resources'
 
 function App() {
   let getItem = (val) => {
     return JSON.parse(localStorage.getItem(val));
   };
-  
+
   const props = {
     todos: getItem('todos'),
     finished: getItem('finished'),
@@ -31,7 +32,7 @@ function App() {
       <Switch>
         <Route path='/' exact><UnderConstruction /></Route>
         <Route path='/treatment' exact><UnderConstruction /></Route>
-        <Route path='/resources' exact><UnderConstruction /></Route>
+        <Route path='/resources' exact><Resources /></Route>
         <Route path='/medicine' exact><Medicine {...props}/></Route>
         <Route path='/profile' exact><UnderConstruction /></Route>
       </Switch>
