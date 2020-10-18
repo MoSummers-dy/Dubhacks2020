@@ -14,7 +14,8 @@ import NavBar from './components/navbar/navbar';
 import UnderConstruction from './components/construction/UnderConstruction';
 import Crisis from './components/crisis/crisis';
 import Medicine from './components/medicine/Medicine';
-import Resources from './components/resources/Resources'
+import Resources from './components/resources/Resources';
+import crisis_icon from './components/crisis/crisis_icon.png'
 
 function App() {
   let getItem = (val) => {
@@ -28,6 +29,7 @@ function App() {
   };
 
   return (
+    <>
     <HashRouter>
       <NavBar />
       <Switch>
@@ -38,7 +40,10 @@ function App() {
         <Route path='/profile' exact><UnderConstruction /></Route>
       </Switch>
     </HashRouter>
-    
+    <a href="/Dubhacks2020#/crisis">
+    <img src={crisis_icon}></img>
+    </a>
+    </>
   );
 }
 
