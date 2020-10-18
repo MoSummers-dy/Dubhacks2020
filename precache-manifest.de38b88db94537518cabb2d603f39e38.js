@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f96543b782843be89f1ffa1ebf655d6f",
+    "revision": "217ed47fec4848e5029d00b63e8375d6",
     "url": "/Dubhacks2020/index.html"
   },
   {
-    "revision": "d96e73dae8a7dd27cbcb",
+    "revision": "34fbc9b7de1f5f5364ec",
     "url": "/Dubhacks2020/static/css/2.63ad08ba.chunk.css"
   },
   {
-    "revision": "fd5bad939c13f110f995",
+    "revision": "4bb764f1b708ff06f007",
     "url": "/Dubhacks2020/static/css/main.fed0e855.chunk.css"
   },
   {
-    "revision": "d96e73dae8a7dd27cbcb",
-    "url": "/Dubhacks2020/static/js/2.7b70379a.chunk.js"
+    "revision": "34fbc9b7de1f5f5364ec",
+    "url": "/Dubhacks2020/static/js/2.00d1eb2c.chunk.js"
   },
   {
     "revision": "2493e3cd185616f882405c275d5a7607",
-    "url": "/Dubhacks2020/static/js/2.7b70379a.chunk.js.LICENSE.txt"
+    "url": "/Dubhacks2020/static/js/2.00d1eb2c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd5bad939c13f110f995",
-    "url": "/Dubhacks2020/static/js/main.2935f161.chunk.js"
+    "revision": "4bb764f1b708ff06f007",
+    "url": "/Dubhacks2020/static/js/main.0495c6f9.chunk.js"
   },
   {
     "revision": "97bef074494f11ec2ed3",

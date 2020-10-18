@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dubhacks2020/precache-manifest.889246f2fff04f0c96b3d3dec3caf9d4.js"
+  "/Dubhacks2020/precache-manifest.de38b88db94537518cabb2d603f39e38.js"
 );
 
 self.addEventListener('message', (event) => {
