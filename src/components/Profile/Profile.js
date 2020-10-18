@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../components/Profile.css'
+import './Profile.css'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -141,7 +141,7 @@ class Profile extends Component {
 				</Container>
 				<div class="row justify-content-between" style={{marginTop: '10pt'}}>
 				</div>
-				<Button variant="danger" style={{marginLeft: '70%'}}>Sign out</Button>
+				<button class="btn btn-danger" style={{marginLeft: '70%'}}>Sign out</button>
 			</div>
 		)
 	}
