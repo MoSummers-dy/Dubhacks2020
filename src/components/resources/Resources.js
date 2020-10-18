@@ -192,6 +192,24 @@ const Resources = (props) => {
         );
     }
 
+<<<<<<< HEAD
+=======
+    const images = [
+        {
+          original: 'https://placekitten.com/600/300',
+          thumbnail: 'https://placekitten.com/600/300',
+        },
+        {
+          original: 'http://lorempixel.com/1000/600/nature/2/',
+          thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+        },
+        {
+          original: 'http://lorempixel.com/1000/600/nature/3/',
+          thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+        }
+    ];
+
+>>>>>>> e6f5e0411f6a6fbb42cab8bde9afdd88340509cc
     const gallery = () => {
         return (
             <Carousel>
