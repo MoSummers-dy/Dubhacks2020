@@ -18,9 +18,6 @@ import img9 from './pics/3.png'
 import img10 from './pics/4.jpeg'
 import img11 from './pics/5.jpg'
 import img12 from './pics/6.png'
-import g1 from './pics/g1.jpg'
-import g2 from './pics/g2.jpg'
-import g3 from './pics/g3.jpg'
 import g4 from './pics/g4.jpg'
 import g5 from './pics/g5.jpg'
 import g6 from './pics/g6.jpg'
@@ -214,27 +211,6 @@ const Resources = (props) => {
         return (
             <Carousel>
                 <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={g1}
-                    alt="Third slide"
-                    />
-    
-                </Carousel.Item>
-                <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={g2}
-                    alt="Third slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    src={g3}
-                    alt="Third slide"
-                    />
-                </Carousel.Item>                <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src={g4}
