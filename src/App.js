@@ -38,11 +38,9 @@ function App() {
         <Route path='/resources' exact><Resources /></Route>
         <Route path='/medicine' exact><Medicine {...props}/></Route>
         <Route path='/profile' exact><UnderConstruction /></Route>
+        <Route path='/crisis' exact><Crisis /></Route>
       </Switch>
     </HashRouter>
-    <a href="/Dubhacks2020#/crisis">
-    <img src={crisis_icon}></img>
-    </a>
     </>
   );
 }
