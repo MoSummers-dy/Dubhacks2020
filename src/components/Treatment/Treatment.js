@@ -11,23 +11,25 @@ import ph from './place-holder.pdf'
 
 const Treatment = () => {
   return (
+    <div class="m-5">
+      <h2 id="t-header">Treatment</h2>
   <Tab.Container id="left-tabs-example" defaultActiveKey="first">
   <Row>
     <Col sm={3}>
       <Nav variant="pills" className="flex-column">
         <Nav.Item>
           <Nav.Link eventKey="first">
-            <span class="tab" >Treatment 1</span>
+            <span class="tab" >ABC Worksheet</span>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="second">
-            <span class="tab" >Treatment 2</span>
+            <span class="tab" >Interpersonal Effectiveness Skills</span>
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="third">
-            <span class="tab" >Treatment 3</span>
+            <span class="tab" >Placeholder</span>
           </Nav.Link>
         </Nav.Item>
       </Nav>
@@ -47,6 +49,7 @@ const Treatment = () => {
     </Col>
   </Row>
 </Tab.Container>
+</div>
   )
 }
 export default Treatment;

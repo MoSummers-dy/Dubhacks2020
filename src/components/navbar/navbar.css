@@ -1,12 +1,12 @@
 #nav-bar-container {
     display: flex;
     background-color: white;
-    border-top: 1vw solid #4B2E83;
+    border-top: 1vw solid #F0DAA1;
     justify-content: space-between;
-    border-bottom: solid #C4C4C4;
+    border-bottom: solid #F0DAA1;
     min-width: 365px;
   }
-  
+
   .nav-tab {
     text-decoration: none;
     color: black;
@@ -17,21 +17,21 @@
     margin-left: 1vw;
     margin-right: 1vw;
   }
-  
+
   .nav-tab:hover {
-    color: #C4C4C4;
+    color: #EE7804;
   }
-  
+
   .logo {
     height: 6vw;
     padding-top: 1.5vw;
   }
-  
+
   #logo-left {
     padding-left: 2vw;
     padding-right: 5vw;
   }
-  
+
   #logo-right {
     padding-left: 5vw;
     padding-right: 2vw;

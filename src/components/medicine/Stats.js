@@ -6,11 +6,11 @@ import './Medicine.css';
 const Stats = (props) => {
     const congrats = (percent) => {
         return (
-            percent === 100 ? 
-            <div style={{color: 'rgba(75, 46, 131, 1)'}}
-            >Amazing!</div> : null 
+            percent === 100 ?
+            <div style={{color: '#EE7804'}}
+            >Amazing!</div> : null
         );
-    }; 
+    };
 
   return (
     <div>

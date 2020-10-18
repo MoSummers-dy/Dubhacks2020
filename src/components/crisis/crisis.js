@@ -45,8 +45,9 @@ function Crisis() {
 
   return (
     <>
+      <h2 style={{textAlign:"center", marginTop:"50px"}}>Crisis</h2>
         <Container style={{marginTop: '40pt'}}>
-          <b>Try these first:</b> 
+          <b>Try these first:</b>
           <br></br>
           <Container style={{marginBottom: '10pt'}, {marginTop: '10pt'}}>
             <ActivityList activities={activities} toggleActivity={toggleActivity} />
@@ -63,8 +64,6 @@ function Crisis() {
             <li class="list-group-item">Recovery Help Line: 1-866-789-1511</li>
           </ul>
         </Container>
-
-        
     </>
   )
 }
