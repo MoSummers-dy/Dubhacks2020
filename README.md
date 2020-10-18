@@ -1,4 +1,5 @@
 # Moodie
+#### Made by Diana Dai, Zhifu Liu, Sean Yang, Zihao Zhou, Yihang Zou
 
 Our website “Moodie”, mainly serving as health tech, is designated for the ones who suffer from mental disorders with the concentration of Major Depression Disorder and Anxiety Disorder. The word “Moodie”, a type of mood that makes you feel good and comfortable, creates the pathos that we want our users to feel relaxed and comfortable when interacting with our website. Mental disorder has been a crucial and urgent concern in this modern society with the high level of stress and the severe impact from COVID-19, but not everyone who suffers from the mental illness is able to get access to the medical resources either because of their time, their energy or their financial condition.
 
