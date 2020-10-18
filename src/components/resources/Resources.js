@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import Card from 'react-bootstrap/Card';
 import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
-import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import CardColumns from 'react-bootstrap/CardColumns'
 import Row from 'react-bootstrap/Row'
@@ -17,6 +15,18 @@ const Resources = (props) => {
     });
 
     const longText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+    const longTextList = () => {
+        return (
+            <ul>
+                <li>Hellow</li>
+                <li>Hellow</li>
+                <li>Hellow</li>
+                <li>Hellow</li>
+
+            </ul>
+        )
+    }
 
     const quotes = () => {
         return (
@@ -226,7 +236,7 @@ const Resources = (props) => {
                                     </Card.Text>
                                     <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
                                     <Card.Text>
-                                        {longText}
+                                        {longTextList()}
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Img variant="top" src="https://placekitten.com/600/300" />

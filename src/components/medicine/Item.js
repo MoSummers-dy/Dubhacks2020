@@ -2,23 +2,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// Components and Styles
 import ItemOptions from './ItemOptions';
 import './Medicine.css';
 
 const Item = (props) => {
-    // Marks x task as done
     const markDone = () => {
         let currentTask = props.item;
         props.completeTask(currentTask);
     };
 
-    // Cache Values
-    let name = props.item.task,
-        completed = props.item.completed,
-        listClass = (completed) ? 'done' : '';
+    let name = props.item.task
+    let completed = props.item.completed
+    let listClass = (completed) ? 'done' : ''
 
-    // return
     return (
         <li className={listClass}>
             <div className="ItemDiv" onClick={markDone}>

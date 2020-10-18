@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Work+Sans:700');
 
 .Medicine {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -23,8 +23,7 @@
   font: 700 18px;
   color: #4B2E83;
 }
-.Medicine input,
-.Medicine input:focus {
+.AddMedicine input, .AddMedicine input:focus {
     transition: .4s all;
     padding: 18px 20px;
     border-radius: 4px;
@@ -33,17 +32,19 @@
     border: none;
     color: #666;
     outline: 0;
-    width: 93%;
+    width: 100%;
 }
 ::-webkit-input-placeholder {
   color: #AAA;
 }
+
 .Medicine ul {
     list-style: none;
     border-radius: 2px;
     padding: 0;
     box-shadow: 0 0 20px #EEE;
 }
+
 .Medicine ul li {
   transition: .3s all;
   padding: 10px 25px;
@@ -80,28 +81,30 @@
   font: 400 16px;
   color: #5D6569;
 }
-.Medicine ul > li > .TaskOptions {
+
+.MedOptions {
   float: right;
   position: relative;
-  top: 12px;
+  top: 30%;
 }
-.Medicine ul > li > .TaskOptions > button,
-.Medicine ul > li > .TaskOptions > button:focus {
-  -webkit-transition: all .3s;
+
+.MedOptions > button, .MedOptions > button:focus {
   border: none;
-  background: #F5F5F5;
+  background: rgba(75, 46, 131, 0.5);
   box-shadow: none;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   outline: 0;
 }
-.Medicine ul > li > .TaskOptions > button:hover {
+
+.TaskOptions > button:hover {
   background: #FFF;
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
   cursor: pointer;
 }
-.Medicine ul > li > .TaskOptions > button > span {
+
+.TaskOptions > button > span {
   color: #AAA;
 }
 
