@@ -16,6 +16,8 @@ import Crisis from './components/crisis/crisis';
 import Medicine from './components/medicine/Medicine';
 import Resources from './components/resources/Resources'
 import Profile from './components/Profile';
+import Schedule from './components/Schedule/ScheduleWrap'
+import Treatment from './components/Treatment/Treatment'
 
 function App() {
   let getItem = (val) => {
@@ -32,8 +34,8 @@ function App() {
     <HashRouter>
       <NavBar />
       <Switch>
-        <Route path='/' exact><UnderConstruction /></Route>
-        <Route path='/treatment' exact><UnderConstruction /></Route>
+        <Route path='/' exact><Schedule /></Route>
+        <Route path='/treatment' exact><Treatment /></Route>
         <Route path='/resources' exact><Resources /></Route>
         <Route path='/medicine' exact><Medicine {...props}/></Route>
         <Route path='/profile' exact><Profile /></Route>
