@@ -9,7 +9,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import img1 from './pics/11.jpg'
 import img2 from './pics/2122.png'
 import img3 from './pics/enjoyable-relationships.jpg'
-import img4 from './pics/positive mental art.png'
+import img4 from './pics/art.png'
 import img5 from './pics/ss.jpg'
 import img6 from './pics/sss.jpg'
 import img7 from './pics/1.jpg'
@@ -192,21 +192,6 @@ const Resources = (props) => {
         );
     }
 
-    const images = [
-        {
-          original: 'https://placekitten.com/600/300',
-          thumbnail: 'https://placekitten.com/600/300',
-        },
-        {
-          original: 'http://lorempixel.com/1000/600/nature/2/',
-          thumbnail: 'http://lorempixel.com/250/150/nature/2/'
-        },
-        {
-          original: 'http://lorempixel.com/1000/600/nature/3/',
-          thumbnail: 'http://lorempixel.com/250/150/nature/3/'
-        }
-    ];
-
     const gallery = () => {
         return (
             <Carousel>
@@ -215,6 +200,7 @@ const Resources = (props) => {
                     className="d-block w-100"
                     src={g4}
                     alt="Third slide"
+                    height="200px"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
