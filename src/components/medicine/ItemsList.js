@@ -1,8 +1,6 @@
-// Packages
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// Components and Styles
 import Item from './Item';
 import './Medicine.css';
 
