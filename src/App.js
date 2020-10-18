@@ -16,6 +16,7 @@ import Crisis from './components/crisis/crisis';
 import Medicine from './components/medicine/Medicine';
 import Resources from './components/resources/Resources'
 import Profile from './components/Profile';
+>>>>>>> 495b07aaa75db635a1b6da51caf5b5b8452d4cdc
 
 function App() {
   let getItem = (val) => {
@@ -32,14 +33,22 @@ function App() {
     <HashRouter>
       <NavBar />
       <Switch>
+<<<<<<< HEAD
+        <Route path='/' exact><ScheduleWrap /></Route>
+        <Route path='/Treatment' exact><Treatment /></Route>
+        <Route path='/team' exact><ScheduleWrap /></Route>
+        <Route path='/endorsement' exact><ScheduleWrap /></Route>
+        <Route path='/involvement' exact><ScheduleWrap /></Route>
+=======
         <Route path='/' exact><UnderConstruction /></Route>
         <Route path='/treatment' exact><UnderConstruction /></Route>
         <Route path='/resources' exact><Resources /></Route>
         <Route path='/medicine' exact><Medicine {...props}/></Route>
         <Route path='/profile' exact><Profile /></Route>
+>>>>>>> 495b07aaa75db635a1b6da51caf5b5b8452d4cdc
       </Switch>
     </HashRouter>
-    
+
   );
 }
 
