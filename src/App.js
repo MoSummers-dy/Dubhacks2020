@@ -12,6 +12,7 @@ import {
 
 import NavBar from './components/navbar/navbar';
 import UnderConstruction from './components/construction/UnderConstruction';
+import Crisis from './components/crisis/crisis';
 import Medicine from './components/medicine/Medicine';
 import Resources from './components/resources/Resources'
 
