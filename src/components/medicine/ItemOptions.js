@@ -10,7 +10,7 @@ const ItemOptions = (props) => {
         let todoList = props.todoList,
             i = 0,
             found = false;
-        // Remove this todo from the array
+
         while (i < todoList.length && !found) {
             if (props.item === todoList[i]) {
               todoList.splice(i, 1); // remove that item from array
@@ -25,7 +25,7 @@ const ItemOptions = (props) => {
 
     // Return
     return (
-        <div className="TaskOptions">
+        <div className="MedOptions">
             <button onClick={removeItem}>
                 <span className="fa fa-trash"></span>
             </button>

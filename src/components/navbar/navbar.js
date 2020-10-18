@@ -2,11 +2,10 @@ import React, {useState, useEffect} from 'react';
 import './navbar.css';
 
 import { Link, useHistory } from 'react-router-dom';
-import crisis_icon from "../crisis/crisis_icon.png";
+import icon4 from './icons/4.jpg';
 
-const tabs = ['Homepage', 'Treatment', 'Resources', 'Medicine', 'Profile'];
-const paths = ['/', '/treatment', '/resources', '/medicine', '/profile'];
-const leftLogo = "https://2019.igem.org/wiki/images/3/32/T--Washington--HLogo2.png";
+const tabs = ['Homepage', 'Treatment', 'Resources', 'Medicine', 'Crisis', 'Profile'];
+const paths = ['/', '/treatment', '/resources', '/medicine', '/crisis', '/profile'];
 
 const NavBar = () => {
 	const [tab, setTab] = useState(paths.indexOf(window.location.hash.substring(1)));
@@ -14,9 +13,9 @@ const NavBar = () => {
 	const history = useHistory();
 
 	useEffect(() => {
-		return history.listen(() => { 
+		return history.listen(() => {
 			setTab(paths.indexOf(window.location.hash.substring(1)));
-		}) 
+		})
 	}, [history]);
 
 	for (let i = 0; i < tabs.length; i++) {
@@ -32,11 +31,9 @@ const NavBar = () => {
 
 	return (
 		<div id='nav-bar-container'>
-			<img id='logo-left' className='logo' src={leftLogo} alt='Logo'/>
+			<img id='logo-left' className='logo' src={icon4} alt='Logo'/>
 			{links}
-			<a href="/Dubhacks2020#/crisis">
-				<img id='crisis_icon' src={crisis_icon} width="100" height="100"/>
-      		</a>
+			<img id='logo-right' className='logo' src={icon4} alt='Logo'/>
 		</div>
 	)
 }

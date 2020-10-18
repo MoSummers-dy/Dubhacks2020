@@ -1,0 +1,15 @@
+.profile {
+    font-size: 30pt;
+    color: purple;
+}
+
+#header {
+    font-size: 40pt;
+    
+}
+
+#container {
+    margin-left: 10%;
+    width: fit-content;
+    box-shadow: 2px 2px 4px #000000;
+}

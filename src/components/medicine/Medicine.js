@@ -1,25 +1,13 @@
-// Packages
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-// Components
-import AddItemBox from './AddItemBox';
+import AddMedicine from './AddMedicine';
 import ItemsList from './ItemsList';
-import TodoStats from './TodoStats';
+import Stats from './Stats';
+import Card from 'react-bootstrap/Card';
+import Accordion from 'react-bootstrap/Accordion'
+import Button from 'react-bootstrap/Button'
 import './Medicine.css';
-
-// 7:30am on June 13
-
-/*
- * HOW IT WORKS
- * 1. Types in the input box
- * 2. User presses Enter
- * 3. At 'ENTER', grab the input value
- * 4. Push it to the App "items" state array
- * 5. Re-render the ItemList component
- * 6. User can see the change
- * Use binds the addItem event so it changes the state in this comp
- */
 
 class Medicine extends Component {
     constructor(props) {
@@ -41,45 +29,55 @@ class Medicine extends Component {
                 <h2 class="m-5" style={{
                     textAlign: 'center'
                 }}>Medicine List</h2>
-                <TodoStats
+                <Stats
                     list={todoList}
                     finished={this.state.finished}
                     percent={this.state.percentDone}
                 />
-                <AddItemBox addNewItem={this.addItem}/>
+                <AddMedicine addNewItem={this.addItem}/>
                 <ItemsList
                     items={todoList}
                     completeTask={this.completeTask}
                     updateList={this.updateListAfterDeletion}
                 />
+                <Accordion>
+                    <Card>
+                        <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                            Click me to learn how to use!
+                        </Accordion.Toggle>
+                        </Card.Header>
+                        <Accordion.Collapse eventKey="0">
+                        <Card.Body>Type in the medicine name and then press "Enter". If you have eaten it, mark it as "completed" by press the box again.                         Oh, what if you want to delete one? Just click on the circle on the right hand side!
+                        </Card.Body>
+                        </Accordion.Collapse>
+                    </Card>
+                </Accordion>
             </div>
         );
     }
 
-    // Adds item to app's 'items' state
     addItem(item) {
         let todoList = this.state.todoList,
             task = {task: item, completed: false};
         todoList.push(task);
         this.setState({todoList}, () => {
-            this.countFinishedTasks();
+            this.countFinished();
         });
     }
 
-    // Marks a task as completed
-    completeTask(task) {
+    completeTask(med) {
         let listItems = this.state.todoList;
         for (let i = 0; i < listItems.length; i++) {
-            if (listItems[i] === task) {
+            if (listItems[i] === med) {
                 listItems[i].completed = !listItems[i].completed;
-                this.countFinishedTasks();
+                this.countFinished();
                 break;
             }
         }
     }
 
-    // Counts Completed tasks and updates state and localstorage object
-    countFinishedTasks() {
+    countFinished() {
         let listItems = this.state.todoList;
         let finished = 0;
         for (let i = 0; i < listItems.length; i++) {
@@ -113,7 +111,7 @@ class Medicine extends Component {
     // Updates list after deletion of a task
     updateListAfterDeletion(todoList) {
         this.setState({todoList}, () => {
-            this.countFinishedTasks();
+            this.countFinished();
         });
     }
 }
